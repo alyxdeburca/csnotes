@@ -1,4 +1,4 @@
-obsidian_entrypoint_path_str: './'
+obsidian_entrypoint_path_str: '../'
 toggles:
   features:
     styling: 
