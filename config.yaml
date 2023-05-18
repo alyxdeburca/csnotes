@@ -1,5 +1,7 @@
-obsidian_entrypoint_path_str: './Computer Science/Index.md'
+obsidian_entrypoint_path_str: './'
 toggles:
   features:
     styling: 
       layout: minimal
+    graph: 
+      enabled: false
