@@ -1,4 +1,4 @@
-obsidian_entrypoint_path_str: '/home/runner/work/csnotes/csnotes/Computer Science/Index.md'
+obsidian_entrypoint_path_str: './Computer Science/Index.md'
 toggles:
   features:
     styling: 
