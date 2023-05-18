@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Page information -->
+        <meta charset="UTF-8" />
+        <meta name="node_id" content="About ObsidianHtml">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="html/favicon.ico" />
+        <!-- Set title -->
+        <title>Obsidian-Html/Notes</title>
+
+        <script>
+            var DO_NOT_OVERWRITE_LINK_BEHAVIOR = true;
+            const PAGE_DEPTH = 1;
+        </script>
+
+        <!-- Includes -->
+        
+<script src="html/obs.html/static/obsidian_core.js"></script>
+<script src="html/obs.html/static/encoding.js"></script>
+<link rel="stylesheet" href="html/obs.html/static/master.css" />
+<script src="html/obs.html/static/mermaid.9.0.1.min.js"></script>
+<script>
+  MathJax = {
+    loader: {
+      load: [
+        '[tex]/action',
+        'output/chtml',
+        '[tex]/centernot'
+      ]
+    },
+    tex: {
+      inlineMath: [ ["\\(","\\)"] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true,
+      processEnvironments: true,
+      packages: {'[+]': ['centernot']}
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script src="html/obs.html/static/flexsearch.bundle.js"></script>
+<script src="html/obs.html/static/pako.js"></script>
+<script src="html/obs.html/static/search.js"></script>
+<script src="html/obs.html/static/dirtree.js"></script>
+
+
+    </head>
+
+    <body>
+        <div class="container">
+            <embeddedtitle>SDLC</embeddedtitle>
+<div class="content"><h2 id="sdlc-create">SDLC - Create</h2>
+<ul>
+<li>Most labour-intensive stage   </li>
+<li>Programmers write the code   </li>
+<li>UI designers create the interface   </li>
+<li>(Unit) Testing – Very important at this stage   </li>
+<li>Users may be involved as 'Consultants!'   </li>
+<li>May involve re-design and re-writing – Iteration   </li>
+<li>Patience required!   </li>
+<li>Flexibility required!   </li>
+</ul>
+<h2 id="sdlc-evaluate">SDLC – Evaluate</h2>
+<ul>
+<li>Testing essential to ensure   </li>
+<li>Functionality   </li>
+<li>Correctness   </li>
+<li>Consistency   </li>
+<li>Unit testing should be done at the Coding stage   </li>
+<li>More testing remains to be done...   </li>
+<li>Functionality testing   </li>
+<li>System testing   </li>
+<li>
+<p>Acceptance testing   </p>
+</li>
+<li>
+<p>Test Data:   </p>
+</li>
+<li>Conditions/Inputs that produce a known result   </li>
+<li>Used to test every part of the software   </li>
+<li>Must be prepared in advance and independently   </li>
+<li>Testing can be manual or automatic   </li>
+<li>Should include   </li>
+<li>Normal values   </li>
+<li>Incorrect values   </li>
+<li>Extreme values   </li>
+<li>
+<p>Boundary values   </p>
+</li>
+<li>
+<p>Functional Testing   </p>
+</li>
+<li>Compliance with specification – fit for purpose   </li>
+<li>Usability   <ul>
+<li>User friendly?   </li>
+<li>Intuitive   </li>
+<li>Easy to find ones way around the syste?   </li>
+<li>Accessibility – easy to access functions of systems?   </li>
+<li>Feedback – appropriate and useful error messages   </li>
+<li>Recovery from errors – does it crash?   </li>
+<li>Security? Too easy to access system?   </li>
+</ul>
+</li>
+<li>Identify <strong>Functions</strong> or <strong>Features</strong> of the system   </li>
+<li>Then for each one:   <ul>
+<li>Create test data   </li>
+<li>Determine expected output   </li>
+<li>Carry out test(s)   </li>
+<li>Compare actual with expected results   </li>
+</ul>
+</li>
+<li>System testing   </li>
+<li>Looks at complete system rather than Functions   </li>
+<li>Ensures conformance with agreed specification   </li>
+<li>Alpha testing   <ul>
+<li>In-house   </li>
+<li>Satisfies technical team that the system works   </li>
+</ul>
+</li>
+<li>Beta testing   <ul>
+<li>On-site   </li>
+<li>Gives assurance to the client that system is fit for purpose   </li>
+</ul>
+</li>
+<li>Alpha testing   </li>
+<li>In-house   </li>
+<li>First line of defence!   </li>
+<li>Test as many paths through the system as possible   </li>
+<li>Find bugs before the users discover them!   </li>
+<li>Beta testing   </li>
+<li>On-site   </li>
+<li>Early (Beta) version of system released to users.   </li>
+<li>Users test the system in 'real-life' environment   </li>
+<li>Record errors and notify development team   </li>
+<li>Wider range of use-cases and scenarios can be tested   </li>
+<li>Continues until all (identified!) issues have been resolved   </li>
+<li>When all issues have been resolved, the user will be asked to Sign-off   </li>
+<li>Aka. Acceptance testing   </li>
+<li>Evaluation stage   </li>
+<li>After Alpha and Beta testing has been completed   </li>
+<li>Product has probably been signed-off and in use   </li>
+<li>Has been deemed 'Acceptable' but not perfect!   </li>
+<li>Often a trade-off of Features vs Time available   </li>
+<li>Modifications may be required   </li>
+<li>Unforeseen 'features' may have been deferred to avoid Scope-Creep   </li>
+<li>Might be time to plan Version 2   </li>
+<li>Evaluation Stage – Questions to be Asked   </li>
+<li>What about the Product?   </li>
+<li>Does the system do what was required?   </li>
+<li>How well does it meet requirements... in terms of:   <ul>
+<li>Introduction to workplace?   </li>
+<li>User Ownership?   </li>
+<li>Response time?   </li>
+<li>Coping with data volumes?   </li>
+<li>Reliability?   </li>
+<li>Usability?   </li>
+</ul>
+</li>
+<li>What about the Project?   <ul>
+<li>How about Cost vs Budget?   </li>
+<li>What about Value for Money?   </li>
+<li>How did we score on the timescale?   </li>
+<li>How easy to maintain and enhance the systems?   </li>
+<li>How long will it last?   </li>
+<li>What have we learned from the project?   </li>
+</ul>
+</li>
+</ul>
+<h2 id="sdlc-document">SDLC – Document</h2>
+<ul>
+<li>Effective Communication is KEY   </li>
+<li>Informal Communication:   </li>
+<li>Meetings, Phone calls, email, etc.   </li>
+<li>Formal Communications:   </li>
+<li>Project documentation, Feasibility study, Project plan, etc.   </li>
+<li>Informal Communications:   </li>
+<li>Meetings – Minutes should be recorded and made available as required   <ul>
+<li>Decisions made   </li>
+<li>Actions agreed   </li>
+<li>Issues to be resolved   </li>
+</ul>
+</li>
+<li>Phone Calls   <ul>
+<li>Any important or relevant phone calls should be logged in a diary or similar   </li>
+</ul>
+</li>
+<li>Correspondence   <ul>
+<li>Letters   </li>
+<li>Emails and other messaging   </li>
+</ul>
+</li>
+<li>Changes to Requirements, Plan or Design should be documented   </li>
+<li>Project Documentation   </li>
+<li>Feasibility study   </li>
+<li>Requirements specification   </li>
+<li>Design documents   </li>
+<li>Project plan   </li>
+<li>Source code – including Libraries, etc.   </li>
+<li>NOTE: Code should include Comments and other technical support   </li>
+<li>Test plans and Test data   </li>
+<li>Test results and details   </li>
+<li>System Documentation   </li>
+<li>Installation and Setup guides   </li>
+<li>Training and End-user Documentation   </li>
+<li>
+<p>Evaluation report   </p>
+</li>
+<li>
+<p>Reporting   </p>
+</li>
+<li>Inform stakeholders of progress   </li>
+<li>Regularly!   </li>
+<li>Manage expectations   </li>
+<li>
+<p>Maintains Trust and Confidence   </p>
+</li>
+<li>
+<p>Reporting   </p>
+</li>
+<li>Avoid technical language (jargon) where possible   </li>
+<li>Identify and report potential problems ASAP   </li>
+<li>Timely information helps timely intervention   </li>
+<li>Reduces risk of Cost and Time overruns   </li>
+</ul>
+<h2 id="software-project">Software Project</h2>
+<ul>
+<li>Usually, a Need or Problem is identified   </li>
+<li>Urgent response needed   </li>
+<li>Competitive factors   </li>
+<li>Changing marketplace   </li>
+<li>Changes in legislation   </li>
+<li>Need to control costs   </li>
+<li>Improve lead / response time   </li>
+<li>GDPR   </li>
+<li>etc..   </li>
+<li>The main players:   </li>
+<li>Business Analyst   </li>
+<li>Project manager   </li>
+<li>Systems Analyst   </li>
+<li>Designer   </li>
+<li>Developer   </li>
+<li>Tester   </li>
+<li>User liaison and training   </li>
+<li>Administrative support</li>
+</ul></div>
+<div class="note-footer">
+<div class="backlinks">
+<h2>Backlinks</h2>
+<ul>
+	<li><a class="backlink" href="/html/index.html">index</a></li>
+</ul>
+</div>
+
+<div class="tags">
+
+</div>
+
+</div>
+<div class="graph requires_js ">
+    <div id="A98693939172348776045818604054908145383{level}" class="graph_div"></div>
+    
+    <div class="graph-button-row" style="display:flex;">
+        <button class="graph_button graph_show_button" id="B98693939172348776045818604054908145383{level}" level="{level}" note_temp_id="98693939172348776045818604054908145383" onclick="window.ObsHtmlGraph.run(this, '98693939172348776045818604054908145383', 'computer science/sdlc');">
+            Show Graph
+        </button>
+        <button class="graph_button graph_type_button" id="C98693939172348776045818604054908145383{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+            2D
+        </button>
+    </div>
+</div>
+
+<script type="module">
+    if (window.ObsHtmlGraph == undefined){
+        import('html/obs.html/static/graph.js').then((Module) => {
+            window.ObsHtmlGraph = Module;
+            window.ObsHtmlGraph.arm_page(document.getElementById('page_holder'))
+        })
+    }
+</script>
+
+
+
+
+        </div>
+        
+             
+        
+   
+    </body>
+</html>
