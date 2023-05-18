@@ -1,6 +1,4 @@
-obsidian_folder_path_str: '/home/runner/'
-obsidian_entrypoint_path_str: '/home/runner/Computer 
-Science/Index.md' 
+obsidian_entrypoint_path_str: 'Computer Science/Index.md' 
 toggles:
   features:
     styling: 
