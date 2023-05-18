@@ -1,0 +1,10 @@
+{
+  "execute-code:run-all-code-blocks-in-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ]
+}

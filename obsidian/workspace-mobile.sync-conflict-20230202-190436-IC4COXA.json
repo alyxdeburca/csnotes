@@ -1,0 +1,126 @@
+{
+  "main": {
+    "id": "8185e1b3782ff4c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7f9a63a87d3dbd4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "032846efe5723581",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science Notes 2023-01-20.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5767d1931b79ef1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "8900e09cc95e5afb",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "272fc8f4046ec81a",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "3b2f5285806f4955",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "834e09dffad61c83",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "284411114a9502c8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "cc18c4a281ba3b1b",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Computer Science Notes 2023-01-20.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "fa731db793adb840",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Computer Science Notes 2023-01-20.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "6adc09223ec95dd2",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Computer Science Notes 2023-01-20.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "032846efe5723581",
+  "lastOpenFiles": []
+}
