@@ -1,4 +1,4 @@
-site_name: obsidian-mkdocs template
+site_name: Leaving Certificate Computer Science Notes
 
 theme:
     name: 'material'
@@ -7,7 +7,7 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
+      primary: blue
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
@@ -16,8 +16,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
-      accent: blue
+      primary: blue
+      accent: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
