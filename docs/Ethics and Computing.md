@@ -273,3 +273,12 @@ share: true
 					- More transparent
 					- More representative
 					- More respected and trusted
+## Socio-technical systems
+- Computer systems can't exist without an ecosystem
+- Social, economic, and political support structures
+- For example, for computing we need
+	- Electricity networks
+	- Internet connections
+	- WiFi and Communications networks
+	- Payment systems
+	- Agreements, Laws, and Standards
