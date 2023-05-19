@@ -295,3 +295,12 @@ share: true
 			- Bill Gates (Microsoft)
 			- Mark Zuckerberg (Facebook)
 		- Notice a pattern?
+		- Deborah Johnson (IT Ethicist) certainly did.
+	- Software (and System) design reflects prevailing context and culture
+	- It's possible that in future, more diversity within computing will create different 'shapes'
+	- May move to a more altruistic less commercial model
+	- Less emphasis on monetising everything
+	- Public ownership
+	- Better access
+	- More inclusive
+	- 
