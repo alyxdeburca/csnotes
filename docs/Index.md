@@ -2,9 +2,8 @@
 share: true  
 ---  
 
-
+Leaving Certificate Computer Science 2023
 # [[Abstraction]]
-
 # [[Algorithms]]
 # [[Databases]]
 # [[Ethics and Computing]]
