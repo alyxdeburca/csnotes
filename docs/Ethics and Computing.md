@@ -1,7 +1,7 @@
 ---
 share: true  
 ---  
-
+# Ethics and Computing
 ## Introduction
 - Many changes brought about by computing
 	- Faster, cheaper, simpler and more reliable communication
@@ -251,3 +251,20 @@ share: true
 					- Profiling
 					- Arrest
 					- Sentencing
+				- COMPAS - Sounds like a great idea!
+					- However, it has been found to have bias
+					- Seriously overestimates the risk of reoffending for people from more disadvantaged backgrounds
+					- Most bias shown against ethnic minorities
+				- Why this?
+					- Data used was mainly socio-economic - based on
+						- Employment history
+						- Education
+						- Family Health
+						- "Known to the Police"
+				- COMPAS - has been found to have bias - Why is this?
+				- More affluent - but more serious criminals judged to be less at risk of reoffending!
+				- Decision systems using Aggregated data more likely to replicate inequality - why?
+					- Data-sets reflect the structures of society and
+					- Society is unequal
+				- Data aggregation is any process whereby data is gathered and expressed in a summary form. When data is aggregated, atomic data rows - typically gathered from multiple sources are replaced with aggregated totals
+			
