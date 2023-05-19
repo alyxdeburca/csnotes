@@ -2,7 +2,7 @@
 share: true  
 ---  
 
-- Introduction
+- # Introduction
 	- Many changes brought about by computing
 		- Faster, cheaper, simpler and more reliable communication
 		- Improved access to goods and services
@@ -32,7 +32,7 @@ share: true
 		 - Freedom of Information?
 		 - Right to privacy
 		 - Fairness
-- Ethics
+- # Ethics
 	- The principles that govern how we lead our lives
 	- Personal and societal views about what is
 		- Right and Wrong
@@ -41,7 +41,7 @@ share: true
 		- Laws, Rules, or Regulations
 		- A checklist of Do's and Don'ts
 
-- How we examine ethical problems:
+- # How we examine ethical problems:
 	- Outcome
 		- Looking at Outcomes can help us discriminate Right from Wrong
 	- Social media example:
@@ -54,7 +54,7 @@ share: true
 			- Antisocial behaviour
 			- Mental health issues
 	- **Don't throw out the baby with the bath-water**
-- Positive values in computing
+- # Positive values in computing
 	- Values can fit many categories:
 	- Ethical pluralism
 		- Modern world much more connected
@@ -63,7 +63,7 @@ share: true
 		- Important to understand and respect the values of all
 		- Danger of 'Dominant Culture' setting the rules
 		- Personal and Professional issue
-- Professional codes of ethics
+- # Professional codes of ethics
 	- Set of guiding principles to
 		- ensure ethical behaviour
 		- high standard of conduct
@@ -75,7 +75,7 @@ share: true
 		- Accountants
 		- Computer Scientists
 		- Lawyers
-	- ACM - Association for Computing Machinery
+	- ## ACM - Association for Computing Machinery
 		- Founded 1947
 		- Largest International Organisation
 		- Represents
@@ -83,7 +83,7 @@ share: true
 			- Educators
 			- Researchers
 			- Students
-		- Code of Ethics and Professional Conduct
+		- ### Code of Ethics and Professional Conduct
 			- Updated regularly
 			- Last update in 2018
 			- Lists general principles
@@ -97,7 +97,7 @@ share: true
 			5. Respect the work required to produce new ideas, inventions, creative works, and computing artefacts.
 			6. Respect privacy.
 			7. Honour confidentiality.
-		- EU - Ethics guidelines for Trustworthy AI:
+		- ### EU - Ethics guidelines for Trustworthy AI:
 			- Based on Fundamental Rights and Ethical Principles,
 				1. Human agency and oversight.
 				2. Technical robustness and safety.
@@ -106,18 +106,136 @@ share: true
 				5. Diversity, non-discrimination and fairness.
 				6. Societal and environmental well-being.
 				7. Accountability.
-	- Responsibility and Accountability
-		- More and more aspects of our lives depend on
-			- Computer systems, Hardware, and above all....
-			- Software
-		- Testing is critically important BUT Expensive and Time-consuming
-		- Same goes for training
-		- Companies want to get to market quickly and cheaply
-		- And these companies can be very powerful and persuasive
-		- Politicians and other decision-makers can be lobbied
-		- Personal and **Corporate** moral responsibility is important
-		- "Computer Error", "Software Glitch" and similar phrases have been used for years to avoid moral responsibility
-		- "Depersonalising" somehow avoids human responsibility
-		- With the rise in Machine Learning, this needs to change.
-		- Someone, somewhere created the Algorithm!
-		- Responsibility, Accountability, and Transparency are especially relevant for systems that use machine learning and algorithmic processes for recommendations or decisions
+- # Responsibility and Accountability
+	- More and more aspects of our lives depend on
+		- Computer systems, Hardware, and above all....
+		- Software
+	- Testing is critically important BUT Expensive and Time-consuming
+	- Same goes for training
+	- Companies want to get to market quickly and cheaply
+	- And these companies can be very powerful and persuasive
+	- Politicians and other decision-makers can be lobbied
+	- Personal and **Corporate** moral responsibility is important
+	- "Computer Error", "Software Glitch" and similar phrases have been used for years to avoid moral responsibility
+	- "Depersonalising" somehow avoids human responsibility
+	- With the rise in Machine Learning, this needs to change.
+	- Someone, somewhere created the Algorithm!
+	- Responsibility, Accountability, and Transparency are especially relevant for systems that use machine learning and algorithmic processes for recommendations or decisions
+- # Data Protection
+	- In a Global data network, the rules can get very cloudy...
+	- ... and Broken
+	- Companies can claim that they need to use data to provide "the best customer experience"
+	- Often questions as to the location (jurisdiction) of the data
+	- Not easy to find and prosecute breaches and abuses
+	- Data is well hidden from individuals
+	- Depend on whistle-blowers to highlight misuse and other issues
+- # Transparency in AI Use
+	- Many systems use Modelling and Machine Learning to:
+		- Analyse purchasing patterns
+		- Examine our music, podcast, or video streaming prefences
+	- This data can be used to predict and suggest future 'needs'
+	- But in these cases, no big deal if it's not 100% accurate
+	- However, in some areas accuracy is much more important
+	- Health-related applications like cancer screening demand
+		- Accurate and reliable data - both training and real-time
+		- Transparency with regard to data and the decision-making process
+		- Exhaustive (and on-going) testing of the algorithm
+		- End-user (medical professionals) engagement and feedback
+	- Medical ethics require clinical decisions to be based on
+		- Transparency
+		- Accountability
+		- Explainability
+	- Who or what is responsible for the decision?
+		- Should be the medical professional - supported by Machine Learning
+	- Not all medical conditions are equal in terms of 
+		- Research (and Research funding)
+		- Big Pharma support (drugs and research)
+	- Priority given to more affluent societies and illnesses
+		- "Diseases of the rich!"
+		- Better ($$$) results for the pharma companies
+	- Example of... Heart-disease (better cash-flow)
+	- Not all groups are represented equally in the data
+		- Women have traditionally been excluded from research trials
+		- Less affluent societies have been (somewhat) ignored
+	- So, less acccurate data available for these demographics
+	- Symptoms can be misinterpreted and diseases left untreated
+	- These inaccuracies (bias) can cause imbalance in the use of ML
+		- Favouring certain diseases and demographics
+		- Exacerbate inequalities in healthcare
+	- This lack of transparency can affect the uses of AI in healthcare
+	- Bias in AI - Image and facial recognition
+- # Data quality
+	- ## One of the biggest problems in ML
+		- Poor quality data = poor quality models - GIGO
+		- Note quote from (1700s) - so this is not new
+		- Typical issues:
+			- Missing values (gaps)
+			- Outliers
+			- Imbalanced data
+		- ### Bias:
+			- Very serious issue in ML datasets
+			- Biased data leads to biased models
+			- US Healthcare model example - racial bias
+			- Misplaced trust in machine-based decisions
+			- But it's the training dataset that matters
+			- Racial, socio-economic or gender are the main issues
+			- Problem with black-box algorithms - data is not transparent
+			- Can lead to questions of trust
+		- ### Bias in AI - Image and facial recognition
+			- Huge training data-sets created by humans
+			- ImageNet Large image-recognition training library
+				- Images harvested from web searches over 10-year period
+				- Labelled by team of people and fed to a ML algorithm
+				- Seemed to be highly accurate at first
+				- Later shown to contain 'disturbing biases'
+				- Description tags may be correct but open to error / abuse
+				- Subjective descriptions can include bias in terms of:
+					- Political 
+					- Cultural
+					- Social
+				- These biases can be conscious or unconscious
+			- ML also requires classification according to values like:
+				- Gender
+				- Nationality
+				- Ethnicity
+				- Etc...
+			- This can be problematic - and even inaccurate
+			- Data-sets are often imbalanced in terms of gender, race, etc.
+			- Many facial recognition systems are only useful when presented with images of white males
+			- Struggle with women and people of colour
+			- The Gender Shades Project - Joy Boulamwini, MIT
+				- Identify bias in gender classification in different AI facial recognition projects
+			- What's the big deal anyway?
+			- Facial recognition is growing at an alarming rate
+			- Unlocking your phone, boarding a plane
+			- Government agencies
+			- Police forces starting to use them
+			- Gardai looking for facial recognition on Bodycams
+			- But the quality doesn't seem to be keeping up
+			- Not yet fit for purpose - Still too much room for error
+			- 2020 - Microsoft, Amazon, et. al. paused development of facial recognition software for policing - citing the need for stronger regulations (and more accuracy!)
+			- Ethical concerns? Maybe
+			- Fear of litigation? Definitely!
+		- # Fairness and justice
+			- ML systems often deployed for 'efficiency'
+				- Data mined from many sources - even Public Service data
+				- Can affect access to services and even Human Rights
+				- These systems are often in use 'behind-the-scenes' in
+					- Banking (Credit checking, Loan approval, etc.)
+					- Justice system (Bail application)
+					- Insurance (Risks, Actuarial data, etc.)
+				- Little known of their algorithm (black-box) or training data
+			- Car Insurance and ML algorithms
+				- Previously used Actuarial data to assess risks
+				- Data related to
+					- Vehicle (age, engine size, condition, value, etc.)
+					- Address (risk of theft or other damage)
+					- Driver(s) (age profile, previous claims, etc.)
+					- Occupation (Likely mileage, occupational risks, etc.)
+				- And this was all very reasonable
+				- However, they now have access to other data such as:
+					- Financial data
+					- Advertising and Cookie tracing
+					- Social network posts
+					- Purchasing data
+			- WHY???? - Price Optimisation
