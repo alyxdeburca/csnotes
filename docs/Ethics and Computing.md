@@ -75,7 +75,7 @@ share: true
 	- Accountants
 	- Computer Scientists
 	- Lawyers
-- ### ACM - Association for Computing Machinery
+- - ### ACM - Association for Computing Machinery
 	- Founded 1947
 	- Largest International Organisation
 	- Represents
@@ -83,21 +83,20 @@ share: true
 		- Educators
 		- Researchers
 		- Students
-	#### Code of Ethics and Professional Conduct
+	- - #### Code of Ethics and Professional Conduct
 		- Updated regularly
 		- Last update in 2018
 		- Lists general principles
 		- Professional responsibilities
 		- Professional leadership principles and rules
-
-		1. Contribute to society and to human wellbeing, acknowledging that all people are stakeholders in computing.
-		2. Avoid harm.
-		3. Be honest and trustworthy.
-		4. Be fair and take actionn not to discriminate.
-		5. Respect the work required to produce new ideas, inventions, creative works, and computing artefacts.
-		6. Respect privacy.
-		7. Honour confidentiality.
-	#### EU - Ethics guidelines for Trustworthy AI:
+			1. Contribute to society and to human wellbeing, acknowledging that all people are stakeholders in computing.
+			2. Avoid harm.
+			3. Be honest and trustworthy.
+			4. Be fair and take actionn not to discriminate.
+			5. Respect the work required to produce new ideas, inventions, creative works, and computing artefacts.
+			6. Respect privacy.
+			7. Honour confidentiality.
+	- - #### EU - Ethics guidelines for Trustworthy AI:
 		- Based on Fundamental Rights and Ethical Principles,
 			1. Human agency and oversight.
 			2. Technical robustness and safety.
@@ -165,14 +164,14 @@ share: true
 - This lack of transparency can affect the uses of AI in healthcare
 - Bias in AI - Image and facial recognition
 ## Data quality
-### One of the biggest problems in ML
+- ### One of the biggest problems in ML
 	- Poor quality data = poor quality models - GIGO
 	- Note quote from (1700s) - so this is not new
 	- Typical issues:
 		- Missing values (gaps)
 		- Outliers
 		- Imbalanced data
-	#### Bias:
+	- - #### Bias:
 		- Very serious issue in ML datasets
 		- Biased data leads to biased models
 		- US Healthcare model example - racial bias
@@ -181,7 +180,7 @@ share: true
 		- Racial, socio-economic or gender are the main issues
 		- Problem with black-box algorithms - data is not transparent
 		- Can lead to questions of trust
-	#### Bias in AI - Image and facial recognition
+	- - #### Bias in AI - Image and facial recognition
 		- Huge training data-sets created by humans
 		- ImageNet Large image-recognition training library
 			- Images harvested from web searches over 10-year period
@@ -216,7 +215,7 @@ share: true
 		- 2020 - Microsoft, Amazon, et. al. paused development of facial recognition software for policing - citing the need for stronger regulations (and more accuracy!)
 		- Ethical concerns? Maybe
 		- Fear of litigation? Definitely!
-	## Fairness and justice
+	- ##Fairness and justice
 		- ML systems often deployed for 'efficiency'
 			- Data mined from many sources - even Public Service data
 			- Can affect access to services and even Human Rights
@@ -267,4 +266,10 @@ share: true
 					- Data-sets reflect the structures of society and
 					- Society is unequal
 				- Data aggregation is any process whereby data is gathered and expressed in a summary form. When data is aggregated, atomic data rows - typically gathered from multiple sources are replaced with aggregated totals
-			
+				- What can we do about these inaccuracies and biases?
+					- Regulate training data sets
+					- Data cooperatives to design training data from scratch
+				- This should make algorithmic decision making
+					- More transparent
+					- More representative
+					- More respected and trusted
