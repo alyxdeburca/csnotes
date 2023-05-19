@@ -273,12 +273,25 @@ share: true
 					- More transparent
 					- More representative
 					- More respected and trusted
-## Socio-technical systems
-- Computer systems can't exist without an ecosystem
-- Social, economic, and political support structures
-- For example, for computing we need
-	- Electricity networks
-	- Internet connections
-	- WiFi and Communications networks
-	- Payment systems
-	- Agreements, Laws, and Standards
+- ## Socio-technical systems
+	- Computer systems can't exist without an ecosystem
+	- Social, economic, and political support structures
+	- For example, for computing we need
+		- Electricity networks
+		- Internet connections
+		- WiFi and Communications networks
+		- Payment systems
+		- Agreements, Laws, and Standards
+	- Computing is a socio-technical system
+		- More than the hardware and software
+		- Shaped and supported by relationships and agreements
+			- Social
+			- Economic
+			- Political
+		- These are based on a set of Values
+		- To date, mainly White, Middle-class males have shaped the computing landscape
+		- Examples of 'shapers' include:
+			- Steve Jobs & Wozniak (Apple)
+			- Bill Gates (Microsoft)
+			- Mark Zuckerberg (Facebook)
+		- Notice a pattern?
