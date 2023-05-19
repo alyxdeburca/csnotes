@@ -75,7 +75,7 @@ share: true
 	- Accountants
 	- Computer Scientists
 	- Lawyers
-- - ### ACM - Association for Computing Machinery
+- ### ACM - Association for Computing Machinery
 	- Founded 1947
 	- Largest International Organisation
 	- Represents
@@ -273,7 +273,7 @@ share: true
 					- More transparent
 					- More representative
 					- More respected and trusted
-- ## Socio-technical systems
+## Socio-technical systems
 	- Computer systems can't exist without an ecosystem
 	- Social, economic, and political support structures
 	- For example, for computing we need
