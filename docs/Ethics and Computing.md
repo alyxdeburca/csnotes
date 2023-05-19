@@ -2,7 +2,7 @@
 share: true  
 ---  
 
-- # Introduction
+# Introduction
 	- Many changes brought about by computing
 		- Faster, cheaper, simpler and more reliable communication
 		- Improved access to goods and services
@@ -32,7 +32,7 @@ share: true
 		 - Freedom of Information?
 		 - Right to privacy
 		 - Fairness
-- # Ethics
+# Ethics
 	- The principles that govern how we lead our lives
 	- Personal and societal views about what is
 		- Right and Wrong
@@ -41,7 +41,7 @@ share: true
 		- Laws, Rules, or Regulations
 		- A checklist of Do's and Don'ts
 
-- # How we examine ethical problems:
+# How we examine ethical problems:
 	- Outcome
 		- Looking at Outcomes can help us discriminate Right from Wrong
 	- Social media example:
@@ -54,7 +54,7 @@ share: true
 			- Antisocial behaviour
 			- Mental health issues
 	- **Don't throw out the baby with the bath-water**
-- # Positive values in computing
+# Positive values in computing
 	- Values can fit many categories:
 	- Ethical pluralism
 		- Modern world much more connected
@@ -63,7 +63,7 @@ share: true
 		- Important to understand and respect the values of all
 		- Danger of 'Dominant Culture' setting the rules
 		- Personal and Professional issue
-- # Professional codes of ethics
+# Professional codes of ethics
 	- Set of guiding principles to
 		- ensure ethical behaviour
 		- high standard of conduct
@@ -75,7 +75,7 @@ share: true
 		- Accountants
 		- Computer Scientists
 		- Lawyers
-	- ## ACM - Association for Computing Machinery
+	## ACM - Association for Computing Machinery
 		- Founded 1947
 		- Largest International Organisation
 		- Represents
@@ -83,7 +83,7 @@ share: true
 			- Educators
 			- Researchers
 			- Students
-		- ### Code of Ethics and Professional Conduct
+		### Code of Ethics and Professional Conduct
 			- Updated regularly
 			- Last update in 2018
 			- Lists general principles
@@ -97,7 +97,7 @@ share: true
 			5. Respect the work required to produce new ideas, inventions, creative works, and computing artefacts.
 			6. Respect privacy.
 			7. Honour confidentiality.
-		- ### EU - Ethics guidelines for Trustworthy AI:
+		### EU - Ethics guidelines for Trustworthy AI:
 			- Based on Fundamental Rights and Ethical Principles,
 				1. Human agency and oversight.
 				2. Technical robustness and safety.
@@ -106,7 +106,7 @@ share: true
 				5. Diversity, non-discrimination and fairness.
 				6. Societal and environmental well-being.
 				7. Accountability.
-- # Responsibility and Accountability
+# Responsibility and Accountability
 	- More and more aspects of our lives depend on
 		- Computer systems, Hardware, and above all....
 		- Software
@@ -121,7 +121,7 @@ share: true
 	- With the rise in Machine Learning, this needs to change.
 	- Someone, somewhere created the Algorithm!
 	- Responsibility, Accountability, and Transparency are especially relevant for systems that use machine learning and algorithmic processes for recommendations or decisions
-- # Data Protection
+# Data Protection
 	- In a Global data network, the rules can get very cloudy...
 	- ... and Broken
 	- Companies can claim that they need to use data to provide "the best customer experience"
@@ -129,7 +129,7 @@ share: true
 	- Not easy to find and prosecute breaches and abuses
 	- Data is well hidden from individuals
 	- Depend on whistle-blowers to highlight misuse and other issues
-- # Transparency in AI Use
+# Transparency in AI Use
 	- Many systems use Modelling and Machine Learning to:
 		- Analyse purchasing patterns
 		- Examine our music, podcast, or video streaming prefences
@@ -164,15 +164,15 @@ share: true
 		- Exacerbate inequalities in healthcare
 	- This lack of transparency can affect the uses of AI in healthcare
 	- Bias in AI - Image and facial recognition
-- # Data quality
-	- ## One of the biggest problems in ML
+# Data quality
+	## One of the biggest problems in ML
 		- Poor quality data = poor quality models - GIGO
 		- Note quote from (1700s) - so this is not new
 		- Typical issues:
 			- Missing values (gaps)
 			- Outliers
 			- Imbalanced data
-		- ### Bias:
+		### Bias:
 			- Very serious issue in ML datasets
 			- Biased data leads to biased models
 			- US Healthcare model example - racial bias
@@ -181,7 +181,7 @@ share: true
 			- Racial, socio-economic or gender are the main issues
 			- Problem with black-box algorithms - data is not transparent
 			- Can lead to questions of trust
-		- ### Bias in AI - Image and facial recognition
+		### Bias in AI - Image and facial recognition
 			- Huge training data-sets created by humans
 			- ImageNet Large image-recognition training library
 				- Images harvested from web searches over 10-year period
@@ -216,7 +216,7 @@ share: true
 			- 2020 - Microsoft, Amazon, et. al. paused development of facial recognition software for policing - citing the need for stronger regulations (and more accuracy!)
 			- Ethical concerns? Maybe
 			- Fear of litigation? Definitely!
-		- # Fairness and justice
+		# Fairness and justice
 			- ML systems often deployed for 'efficiency'
 				- Data mined from many sources - even Public Service data
 				- Can affect access to services and even Human Rights
