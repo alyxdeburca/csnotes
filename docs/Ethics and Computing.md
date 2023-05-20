@@ -274,33 +274,33 @@ share: true
 					- More representative
 					- More respected and trusted
 ## Socio-technical systems
-	- Computer systems can't exist without an ecosystem
-	- Social, economic, and political support structures
-	- For example, for computing we need
-		- Electricity networks
-		- Internet connections
-		- WiFi and Communications networks
-		- Payment systems
-		- Agreements, Laws, and Standards
-	- Computing is a socio-technical system
-		- More than the hardware and software
-		- Shaped and supported by relationships and agreements
-			- Social
-			- Economic
-			- Political
-		- These are based on a set of Values
-		- To date, mainly White, Middle-class males have shaped the computing landscape
-		- Examples of 'shapers' include:
-			- Steve Jobs & Wozniak (Apple)
-			- Bill Gates (Microsoft)
-			- Mark Zuckerberg (Facebook)
-		- Notice a pattern?
-		- Deborah Johnson (IT Ethicist) certainly did.
-	- Software (and System) design reflects prevailing context and culture
-	- It's possible that in future, more diversity within computing will create different 'shapes'
-	- May move to a more altruistic less commercial model
-	- Less emphasis on monetising everything
-	- Public ownership
-	- Better access
-	- More inclusive
-	- 
+- Computer systems can't exist without an ecosystem
+- Social, economic, and political support structures
+- For example, for computing we need
+	- Electricity networks
+	- Internet connections
+	- WiFi and Communications networks
+	- Payment systems
+	- Agreements, Laws, and Standards
+- Computing is a socio-technical system
+	- More than the hardware and software
+	- Shaped and supported by relationships and agreements
+		- Social
+		- Economic
+		- Political
+	- These are based on a set of Values
+	- To date, mainly White, Middle-class males have shaped the computing landscape
+	- Examples of 'shapers' include:
+		- Steve Jobs & Wozniak (Apple)
+		- Bill Gates (Microsoft)
+		- Mark Zuckerberg (Facebook)
+	- Notice a pattern?
+	- Deborah Johnson (IT Ethicist) certainly did.
+- Software (and System) design reflects prevailing context and culture
+- It's possible that in future, more diversity within computing will create different 'shapes'
+- May move to a more altruistic less commercial model
+- Less emphasis on monetising everything
+- Public ownership
+- Better access
+- More inclusive
+---------
