@@ -2,7 +2,7 @@ site_name: Leaving Certificate Computer Science Notes
 
 theme:
     name: 'material'
-    logo: 'https://www.examinations.ie/favicon.ico'
+    favicon: 'https://www.examinations.ie/favicon.ico'
     palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
