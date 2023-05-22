@@ -1,6 +1,7 @@
 ---
 share: true  
----  
+---
+
 # Ethics and Computing
 ## Introduction
 - Many changes brought about by computing
