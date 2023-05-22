@@ -4,24 +4,44 @@ share: true
 
 # Leaving Certificate Computer Science 2023
 
-### [[Abstraction]]
+### [[Abstraction]]
 
-### [[Algorithms]]
+### [[Algorithms]]
 
-### [[Databases]]
+### [[Databases]]
 
-### [[Ethics and Computing]]
+### [[Ethics and Computing]]
 
-### [[Modelling]]
+### [[Modelling]]
 
-### [[More About Python]]
+### [[More About Python]]
 
-### [[SDLC]]
+### [[SDLC]]
 
-### [[Software Development Process]]
+### [[Software Development Process]]
 
-### [[Unit Testing]]
+### [[Unit Testing]]
 
-### [[Universal Design]]
+### [[Universal Design]]
 
-### [[Logic Gates]]
+### [[Logic Gates]]
+
+### [[AI]]
+
+### [Computer Architecture](computer-arch)
+
+### [Computer Components ](computer-components)
+
+### [Resources](computer-science)
+
+### [The CPU](cpu)
+
+### [Electronics](electronics)
+
+### [Exam Papers](exam-papers)
+
+### [Exam Structure](exam-structure)
+
+### [Flashcards](flashcards)
+
+### [Python](python)
