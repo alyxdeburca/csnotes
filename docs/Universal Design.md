@@ -1,9 +1,6 @@
 ---
 share: true  
 ---
-
-
-
 - Originally developed in 1997 as 7 principles
   1. Equitable Use
   2. Flexibility in use
