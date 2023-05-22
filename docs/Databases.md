@@ -1,6 +1,6 @@
 ---
 share: true  
----  
+---
 
 ### Using Python & Javascript with Firebase
 - Firebase Database
