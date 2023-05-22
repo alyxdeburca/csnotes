@@ -1,6 +1,6 @@
 ---
 share: true  
----  
+---
 
 # Logic Gates
 
