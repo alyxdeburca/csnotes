@@ -1,6 +1,6 @@
 ---
 share: true  
----  
+---
 
 ## Abstracting Pac-Man
 | Key Features | Key Features |
