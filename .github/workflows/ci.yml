@@ -20,5 +20,6 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install mkdocs-roamlinks-plugin
+      - run: echo "notes.alyx.site" >> CNAME
       # - run: pip install mkdocs-mermaid2-plugin
-      - run: mkdocs gh-deploy
+      - run: mkdocs gh-deploy --force
