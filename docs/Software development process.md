@@ -1,6 +1,6 @@
 ---
 share: true  
----  
+---
 
 Based largely on Chinese Whispers, no formal communication
 
