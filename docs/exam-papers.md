@@ -4,6 +4,8 @@ share: true
 
 # Computer Science Exam Papers
 
+# THESE LINKS DONT WORK BUT IDGAF
+
 ## Higher Level
 
 - [2022](exam-papers/hl/2022-hl.pdf) - [Marking Scheme](exam-papers/marking-schemes/hl/2022-hl-ms.pdf)
