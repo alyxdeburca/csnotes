@@ -2,7 +2,7 @@
 share: true
 ---
 
-![[timeline.001.png]]
+![[assets/timeline.001.png]]
 
 # Early Computing (1600’s)
 
@@ -19,7 +19,7 @@ In addition to the slide ruler the term was often used to mean a person who perf
 - Calculating the movements of celestial bodies for astronomers or astrologers
 
 - Working out trajectories (flight paths) of missiles for the army
-![[slidrule.002.jpeg]]
+![[assets/slidrule.002.jpeg]]
 
 # Charles Babbage (1822, 1830)
 
@@ -51,7 +51,7 @@ Note: The Turing Machine was a logical computational construct but not a real co
 
   
 
-![[Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.003.png]]
+![[assets/Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.003.png]]
 
 # Electromechanical Computers (1940’s, 1941)
 
@@ -63,7 +63,7 @@ The electromechanical Z3, developed in Germany in 1941, was the first digital, p
 
   
 
-![[tmachine.004.jpeg]]
+![[assets/tmachine.004.jpeg]]
 
 # Vacuum Tubes (1940’s onwards)
 
@@ -75,7 +75,7 @@ The development of vacuum tubes led to the rapid growth of electronic devices fr
 
   
 
-![[Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.005 2.jpeg]]
+![[assets/Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.005 2.jpeg]]
 
 # Impact of World War II and Bletchley Park (1939 – 1945)
 
@@ -96,9 +96,9 @@ Both Enigma machines and Bombes were not considered general purpose computers as
   
 
 Additionally, the first digital, programmable computer was Colossus, which was installed at Bletchley Park. However, Colossus was used specifically for code breaking and was therefore not considered to be general purpose.
-![[Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.006.jpeg]]
+![[assets/Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.006.jpeg]]
 
-![[Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.007.jpeg]]
+![[assets/Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.007.jpeg]]
 
 #
 
@@ -116,5 +116,5 @@ With time, the word computer came to mean the machine, not a person. These machi
 
   
 
-![[Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.008.jpeg]]
-![[Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.009.jpeg]]
+![[assets/Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.008.jpeg]]
+![[assets/Aspose.Words.ecfcf052-9304-4923-85b5-dc0c31616ba9.009.jpeg]]
