@@ -1,0 +1,989 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../computer-science/">
+      
+      
+        <link rel="next" href="../electronics/">
+      
+      <link rel="icon" href="https://www.examinations.ie/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.14">
+    
+    
+      
+        <title>The Central Processing Unit (CPU) - Leaving Certificate Computer Science Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.85bb2934.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a6bdf11c.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-central-processing-unit-cpu" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Leaving Certificate Computer Science Notes" class="md-header__button md-logo" aria-label="Leaving Certificate Computer Science Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Leaving Certificate Computer Science Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Central Processing Unit (CPU)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Leaving Certificate Computer Science Notes" class="md-nav__button md-logo" aria-label="Leaving Certificate Computer Science Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Leaving Certificate Computer Science Notes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Leaving Certificate Computer Science 2023
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AI/" class="md-nav__link">
+        Artificial Intelligence
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Abstraction/" class="md-nav__link">
+        Abstraction
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Algorithms/" class="md-nav__link">
+        Algorithms
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Databases/" class="md-nav__link">
+        Databases
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ethics%20and%20Computing/" class="md-nav__link">
+        Ethics and Computing
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../History%20of%20Computing/" class="md-nav__link">
+        History of Computing
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Logic%20Gates/" class="md-nav__link">
+        Logic Gates
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelling/" class="md-nav__link">
+        Modelling
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../More%20About%20Python/" class="md-nav__link">
+        More About Python
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SDLC/" class="md-nav__link">
+        SDLC
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Software%20development%20process/" class="md-nav__link">
+        Software development process
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Unit%20testing/" class="md-nav__link">
+        Unit testing
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Universal%20Design/" class="md-nav__link">
+        Universal Design
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../computer-arch/" class="md-nav__link">
+        Von Newmann Architecture
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../computer-components/" class="md-nav__link">
+        Computer Component
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../computer-science/" class="md-nav__link">
+        Resources
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          The Central Processing Unit (CPU)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        The Central Processing Unit (CPU)
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#internals" class="md-nav__link">
+    Internals
+  </a>
+  
+    <nav class="md-nav" aria-label="Internals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arithmetic-logic-unit" class="md-nav__link">
+    Arithmetic Logic Unit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-unit" class="md-nav__link">
+    Control Unit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registers" class="md-nav__link">
+    Registers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cache-memory" class="md-nav__link">
+    Cache Memory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fetch-execute-cycle" class="md-nav__link">
+    Fetch-Execute Cycle
+  </a>
+  
+    <nav class="md-nav" aria-label="Fetch-Execute Cycle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary-of-the-fetch-decode-execute-cycle" class="md-nav__link">
+    Summary of the fetch-decode-execute cycle
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmarking" class="md-nav__link">
+    Benchmarking
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cores" class="md-nav__link">
+    Cores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clock-speed" class="md-nav__link">
+    Clock speed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#read-more-test-yourself" class="md-nav__link">
+    Read More &amp; Test Yourself
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../electronics/" class="md-nav__link">
+        Electronic Components
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exam-papers/" class="md-nav__link">
+        Computer Science Exam Papers
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exam-structure/" class="md-nav__link">
+        Exam Structure
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flashcards/" class="md-nav__link">
+        Flashcards
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python/" class="md-nav__link">
+        Python Programming
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#internals" class="md-nav__link">
+    Internals
+  </a>
+  
+    <nav class="md-nav" aria-label="Internals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arithmetic-logic-unit" class="md-nav__link">
+    Arithmetic Logic Unit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-unit" class="md-nav__link">
+    Control Unit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registers" class="md-nav__link">
+    Registers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cache-memory" class="md-nav__link">
+    Cache Memory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fetch-execute-cycle" class="md-nav__link">
+    Fetch-Execute Cycle
+  </a>
+  
+    <nav class="md-nav" aria-label="Fetch-Execute Cycle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary-of-the-fetch-decode-execute-cycle" class="md-nav__link">
+    Summary of the fetch-decode-execute cycle
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmarking" class="md-nav__link">
+    Benchmarking
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cores" class="md-nav__link">
+    Cores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clock-speed" class="md-nav__link">
+    Clock speed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#read-more-test-yourself" class="md-nav__link">
+    Read More &amp; Test Yourself
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="the-central-processing-unit-cpu">The Central Processing Unit (CPU)</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FZGugFqdr60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="internals">Internals</h2>
+<ul>
+<li>Arithmetic Logic Unit (ALU)</li>
+<li>Control Unit (CU)</li>
+<li>Registers</li>
+<li>Cache Memory</li>
+<li>The Fetch-Execute Cycle </li>
+</ul>
+<!--card-->
+
+<p><img alt="Structure" src="cpu/1.jpg" /></p>
+<!--card-->
+
+<h3 id="arithmetic-logic-unit">Arithmetic Logic Unit</h3>
+<p>An arithmetic logic unit (ALU) is a <strong>digital circuit used to perform arithmetic and logic operations</strong>. It represents the fundamental building block of the central processing unit (CPU) of a computer. Modern CPUs contain very powerful and complex ALUs. In addition to ALUs, modern CPUs contain a control unit (CU)</p>
+<p>Most of the operations of a CPU are performed by one or more ALUs, which <strong>load data from input registers</strong>. A register is a small amount of storage available as part of a CPU. The control unit tells the ALU what operation to perform on that data and the ALU stores the result in an output register. The control unit moves the data between these registers, the ALU, and memory</p>
+<!--card-->
+
+<h3 id="control-unit">Control Unit</h3>
+<p>A control unit <strong>coordinates how data moves around a cpu</strong>. The control unit (CU) is a component of a computer's central processing unit (CPU) that directs operation of the processor. <strong>It tells the computer's memory, arithmetic/logic unit and input and output devices how to respond to a program's instructions</strong></p>
+<ul>
+<li><strong>The control unit obtains data / instructions from memory</strong></li>
+<li><strong>Interprets / decodes the instructions into commands / signals</strong></li>
+<li><strong>Controls transfer of instructions and data in the CPU</strong></li>
+<li><strong>Coordinates the parts of the CPU</strong></li>
+</ul>
+<!--card-->
+
+<h3 id="registers">Registers</h3>
+<p>In computer architecture, a processor register is a quickly accessible location available to a digital processor's central processing unit (CPU). Registers usually consist of a small amount of fast storage</p>
+<p>Almost all computers load data from a larger memory into registers where it is used for arithmetic operations and is manipulated or tested by machine instructions. Manipulated data is then often stored back to main memory</p>
+<p>Processor registers are normally at the top of the memory hierarchy, and provide the fastest
+way to access data. The term normally refers only to the group of registers that are directly
+encoded as part of an instruction, as defined by the instruction set</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MAR</td>
+<td>Memory Address Register</td>
+<td>Holds the memory location of data that needs to be accessed</td>
+</tr>
+<tr>
+<td>MDR</td>
+<td>Memory Data Register</td>
+<td>Holds data that is being transferred to or from memory</td>
+</tr>
+<tr>
+<td>AC</td>
+<td>Accumulator</td>
+<td>Where intermediate arithmetic and logic results are stored</td>
+</tr>
+<tr>
+<td>PC</td>
+<td>Program Counter</td>
+<td>Contains the address of the next instruction to be executed</td>
+</tr>
+<tr>
+<td>CIR</td>
+<td>Current Instruction Register</td>
+<td>Contains the current instruction during processing</td>
+</tr>
+</tbody>
+</table>
+<!--card-->
+
+<h3 id="cache-memory">Cache Memory</h3>
+<p>Cache memory is a chip-based computer component that makes <strong>retrieving data from the computer's memory more efficient</strong>. It acts as a <strong>temporary storage area that the computer's processor can retrieve data from easily</strong>. This temporary storage area, known as a cache, is more readily available to the processor than the computer's main memory source, RAM</p>
+<p>Cache memory is sometimes called CPU (central processing unit) memory because it is typically integrated directly into the CPU chip or placed on a separate chip that has a separate bus* interconnect with the CPU. Therefore, it is more accessible to the processor, and able to increase efficiency, because it's physically close to the processor</p>
+<p>In order to be close to the processor, cache memory needs to be much smaller than main memory. Consequently, it has less storage space. It is also more expensive than main memory, as it is a more complex chip that yields higher performance</p>
+<p><strong>What it sacrifices in size and price, it makes up for in speed. Cache memory operates between 10 to 100 times faster than RAM</strong>, requiring only a few nanoseconds to respond to a CPU request</p>
+<ul>
+<li>= In computer architecture, a bus is a communication system that transfers data between components inside a computer, or between computers. This expression covers all related hardware components (wire, optical fiber, etc.) and software</li>
+</ul>
+<!--card-->
+
+<p><img alt="2" src="cpu/2.jpg" /></p>
+<!--card-->
+
+<h3 id="fetch-execute-cycle">Fetch-Execute Cycle</h3>
+<p>The main job of the CPU is to execute programs using the fetch-decode-execute cycle (also known as the instruction cycle or fetch-execute cycle). This cycle begins as soon as you turn on a computer</p>
+<p>o execute a program, <strong>the program code is copied from secondary storage into the main memory. The CPU's program counter is set to the memory location where the first instruction in the program has been stored, and execution begins. The program is now running</strong></p>
+<p>In a program, each machine code instruction takes up a slot in the main memory. These slots (or memory locations) each have a unique memory address. <strong>The program counter stores the address of each instruction and tells the CPU in what order they should be carried out</strong></p>
+<p>When a program is being executed, the CPU performs the fetch-decode-execute cycle, which repeats over and over again until reaching the STOP instruction</p>
+<!--card-->
+
+<p><img alt="3" src="cpu/3.jpg" /></p>
+<h4 id="summary-of-the-fetch-decode-execute-cycle">Summary of the fetch-decode-execute cycle</h4>
+<ol>
+<li>The processor checks the program counter to see which instruction to run next</li>
+<li>The program counter gives an address value in the memory of where the next instruction is</li>
+<li>The processor fetches the instruction value from this memory location</li>
+<li>Once the instruction has been fetched, it needs to be decoded and executed. For example, this could involve taking one value, putting it into the <strong>ALU</strong>, then taking a different value from a <strong>register</strong> and adding the two together</li>
+<li>Once this is complete, the processor goes back to the program counter to find the next instruction</li>
+<li>This cycle is repeated until the program ends</li>
+</ol>
+<!--card-->
+
+<h3 id="benchmarking">Benchmarking</h3>
+<p>A test used to <strong>assess the performance of a computer</strong>. Different types of benchmark software are used for the <strong>different kinds of application</strong> you might want a computer to do</p>
+<p>It is difficult to assess the performance of a CPU because a computer might excel at some tasks but not do so well at others. For example, a computer that is going to be used for gaming will require the best combination of hardware to handle intensive graphics quickly. The same computer might not perform so well if it was used to analyse vast amounts of scientific data</p>
+<!--card-->
+
+<h3 id="cores">Cores</h3>
+<p>A CPU can contain one or more processing units. Each unit is called a <strong>core</strong>. <strong>A core contains an ALU, control unit and registers</strong>. It is common for computers to have two (dual), four (quad) or even more cores. CPUs with multiple cores have more power to run multiple programs at the same time. <strong>However, doubling the number of cores will not simply double a computer's speed</strong>. CPU cores have to communicate with each other through channels and this uses up some of the extra speed</p>
+<!--card-->
+
+<h3 id="clock-speed">Clock speed</h3>
+<p>The <strong>clock speed</strong> - also known as clock rate - indicates how fast the CPU can run. This is measured in <strong>megahertz (MHz) or gigahertz (gHz)</strong> and <strong>corresponds with how many instruction cycles the CPU can deal with in a second</strong>. A 2 gHz CPU performs two billion cycles a second. A faster CPU uses more energy and creates more heat</p>
+<p>A computer will normally have a maximum clock speed set by default, but it is possible to change this speed in the computer BIOS. Some people increase a CPU clock speed to try to make their computer run faster - this is called <strong>overclocking</strong></p>
+<h2 id="read-more-test-yourself">Read More &amp; Test Yourself</h2>
+<ul>
+<li><a href="https://www.bbc.co.uk/bitesize/guides/zmb9mp3/revision/1">CPU and Memory</a></li>
+<li><a href="https://www.bbc.co.uk/bitesize/guides/zws8d2p/revision/1">CPU and Fetch-Execute Cycle</a></li>
+<li><a href="https://www.bbc.co.uk/bitesize/guides/z2342hv/revision/5">Fetch-Execute Cycle</a></li>
+<li><a href="https://www.computerscience.gcse.guru/theory/fetch-execute-cycle">Fetch-Execute Cycle</a></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.b4d07000.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
